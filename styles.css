@@ -2,8 +2,36 @@ body{
     background-color: palegreen;
 }
 
+header{
+    background-color: green;
+}
+
+header div{
+    display: inline-block;
+    text-align: center;
+}
+
+header div#img_header{
+    width: 23%;
+    vertical-align: top;
+}
+
+header div#img_header2{
+    width: 23%;
+}
+
+header div#text_header{
+    width: 49%;
+    vertical-align: top;
+    text-align: center;
+}
+
 li{
     font-family: tahoma;
+}
+
+nav.menu-nav{
+    text-align: center;
 }
 
 nav.menu-nav ul li.button{
@@ -38,17 +66,36 @@ p{
     font-family: tahoma;
 }
 
+footer p{
+    text-align: center;
+    font-family: tahoma;
+    font-size: 10px
+}
+
+footer{
+    background-color: green;
+}
+
 h1{
     text-align: center;
     font-family: tahoma;
     font-size: 40px;
 }
 
+header h1{
+    text-align: right;
+    font-family: tahoma;
+    font-size: 20px;
+}
+
 img{
     border: 1px solid grey;
     border-radius: 8px;
-    max-width: 100%;
     height: auto;
+}
+
+header div#img_header img{
+    border-radius: 50px;
 }
 
 img:hover{
