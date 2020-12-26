@@ -24,6 +24,7 @@ nav.menu-nav ul li.button b{
 
 nav.menu-nav ul li.button a, nav.menu-nav ul li.button b{
     padding: 10px;
+    border-radius: 8px;
 }
 
 nav.menu-nav ul li.button:hover a{
