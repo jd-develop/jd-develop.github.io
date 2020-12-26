@@ -2,6 +2,36 @@ body{
     background-color: palegreen;
 }
 
+li{
+    font-family: tahoma;
+}
+
+nav.menu-nav ul li.button{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav.menu-nav ul li.button a{
+    color: white;
+    text-decoration: none;
+    background-color: green;
+}
+
+nav.menu-nav ul li.button b{
+    color: black;
+    background-color: palegreen;
+}
+
+nav.menu-nav ul li.button a, nav.menu-nav ul li.button b{
+    padding: 10px;
+}
+
+nav.menu-nav ul li.button:hover a{
+    color: black;
+    background-color: palegreen;
+    transition: 0.3s all;
+}
+
 p{
     text-align: center;
     font-family: tahoma;
@@ -14,25 +44,15 @@ h1{
 }
 
 img{
-    border: 1px solid #ddd;
+    border: 1px solid grey;
     border-radius: 8px;
     max-width: 100%;
     height: auto;
 }
 
 img:hover{
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-
-table, tr, td{
-   border: 1px solid black;
-   border-collapse: collapse;
-   text-align: center;
-   font-family: tahoma;
-}
-
-table{
-   width: 100%;
+    box-shadow: 0 0 5px 1px rgba(0, 140, 186, 0.5);
+    transition: 0.3s all;
 }
 
 tr:hover {background-color: lightgreen;};
