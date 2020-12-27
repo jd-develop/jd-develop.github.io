@@ -67,13 +67,14 @@ p{
 }
 
 footer p{
-    text-align: center;
+    display: inline-block;
     font-family: tahoma;
     font-size: 10px
 }
 
 footer{
     background-color: green;
+    text-align: center;
 }
 
 h1{
@@ -103,4 +104,17 @@ img:hover{
     transition: 0.3s all;
 }
 
-tr:hover {background-color: lightgreen;};
+span.copyleft{
+    display: inline-block;
+    font-family: tahoma;
+    transform: rotate(180deg);
+}
+
+figcaption{
+    font-family: tahoma;
+}
+
+figure.credits{
+    display:inline-block;
+    vertical-align: top;
+}
