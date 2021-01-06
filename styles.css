@@ -30,15 +30,6 @@ li{
     font-family: tahoma;
 }
 
-404button{
-    list-style-type: none;
-    display: inline-block;
-    text-decoration: none;
-    text-align: center;
-    padding: 10px;
-    border-radius: 8px;
-}
-
 nav.menu-nav{
     text-align: center;
 }
