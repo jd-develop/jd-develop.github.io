@@ -1,5 +1,5 @@
 body{
-    background-color: palegreen;
+    background-color: lightgreen;
 }
 
 header{
@@ -31,7 +31,18 @@ div, header, footer{
 }
 
 div#paques-calculator{
+    background-color: #87CEEB;
+    border: 1px solid black;
+}
+
+div#py-pendu{
     background-color: orange;
+    border: 1px solid black;
+}
+
+div#generateur-de-personnes{
+    background-color: palegreen;
+    border: 1px solid black;
 }
 
 div.program-div div{
@@ -43,8 +54,16 @@ div.program-div div.program-text-div h1, div.program-div div.program-text-div p{
     text-align: right;
 }
 
-div.program-div div.program-img-div img{
+div.program-div div.program-img-div{
     text-align: left;
+}
+
+div.program-div div.program-text-div1 h1, div.program-div div.program-text-div1 p{
+    text-align:left;
+}
+
+div.program-div div.program-img-div1{
+    text-align:right;
 }
 
 li{
@@ -68,7 +87,7 @@ nav.menu-nav ul li.button a{
 
 nav.menu-nav ul li.button b{
     color: black;
-    background-color: palegreen;
+    background-color: lightgreen;
 }
 
 nav.menu-nav ul li.button a, nav.menu-nav ul li.button b{
@@ -78,7 +97,7 @@ nav.menu-nav ul li.button a, nav.menu-nav ul li.button b{
 
 nav.menu-nav ul li.button:hover a{
     color: black;
-    background-color: palegreen;
+    background-color: lightgreen;
     transition: 0.3s all;
 }
 
