@@ -112,8 +112,8 @@ p{
     font-family: tahoma;
 }
 
-p.body-button{
-    padding: 8px;
+p.body-button, p.body-button-pc, p.body-button-pp, p.body-button-gp{
+    padding: 4px;
 }
 
 p.body-button a{
@@ -133,10 +133,6 @@ p.body-button a:hover{
     padding: 12px;
     border: 1px solid black;
     transition: 0.3s all;
-}
-
-p.body-button-pc, p.body-button-pp, p.body-button-gp{
-    padding: 4px;
 }
 
 p.body-button-pc a{
@@ -202,7 +198,7 @@ p.body-button-gp a:hover{
 footer p{
     display: inline-block;
     font-family: tahoma;
-    font-size: 10px
+    font-size: 11px
 }
 
 footer{
@@ -230,7 +226,7 @@ img{
 }
 
 header div#img_header img{
-    border-radius: 50px;
+    border-radius: 50%;
 }
 
 img:hover{
