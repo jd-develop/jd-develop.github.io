@@ -1,0 +1,186 @@
+body{
+    background-color: lightgreen;
+}
+
+header{
+    background-color: green;
+}
+
+header div{
+    display: inline-block;
+    text-align: center;
+}
+
+header div#img_header{
+    width: 23%;
+    vertical-align: top;
+}
+
+header div#img_header2{
+    width: 23%;
+}
+
+header div#text_header{
+    width: 49%;
+    vertical-align: top;
+    text-align: center;
+}
+
+div, header, footer{
+    border-radius: 8px;
+}
+
+div#paques-calculator{
+    background-color: #87CEEB;
+    border: 1px solid black;
+}
+
+div#py-pendu{
+    background-color: orange;
+    border: 1px solid black;
+}
+
+div#generateur-de-personnes{
+    background-color: palegreen;
+    border: 1px solid black;
+}
+
+div.program-div div{
+    display: inline-block;
+    width: 48%;
+}
+
+div.program-div div.program-text-div h1, div.program-div div.program-text-div p{
+    text-align: right;
+}
+
+div.program-div div.program-img-div{
+    text-align: left;
+}
+
+div.program-div div.program-text-div1 h1, div.program-div div.program-text-div1 p{
+    text-align:left;
+}
+
+div.program-div div.program-img-div1{
+    text-align:right;
+}
+
+li{
+    font-family: tahoma;
+}
+
+nav.menu-nav{
+    text-align: center;
+}
+
+nav.menu-nav ul li.button{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.3s all;
+}
+
+nav.menu-nav ul li.button a{
+    color: white;
+    text-decoration: none;
+    background-color: green;
+    transition: 0.3s all;
+}
+
+nav.menu-nav ul li.button b{
+    color: black;
+    background-color: lightgreen;
+    transition: 0.3s all;
+}
+
+nav.menu-nav ul li.button a, nav.menu-nav ul li.button b{
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s all;
+}
+
+nav.menu-nav ul li.button:hover a{
+    color: black;
+    background-color: lightgreen;
+    transition: 0.3s all;
+}
+
+p{
+    text-align: center;
+    font-family: tahoma;
+}
+
+p.home-button{
+    padding: 8px;
+}
+
+p.home-button a{
+    text-align: center;
+    font-family: tahoma;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    background-color: green;
+    transition: 0.3s all;
+}
+
+p.home-button a:hover{
+    color: black;
+    background-color: lightgreen;
+    transition: 0.3s all;
+}
+
+footer p{
+    display: inline-block;
+    font-family: tahoma;
+    font-size: 10px
+}
+
+footer{
+    background-color: green;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: tahoma;
+    font-size: 40px;
+}
+
+header h1{
+    text-align: right;
+    font-family: tahoma;
+    font-size: 20px;
+}
+
+img{
+    border: 1px solid grey;
+    border-radius: 8px;
+    height: auto;
+    transition: 0.3s all;
+}
+
+header div#img_header img{
+    border-radius: 50px;
+}
+
+img:hover{
+    box-shadow: 0 0 5px 1px rgba(0, 140, 186, 0.5);
+    transition: 0.3s all;
+}
+
+span.copyleft{
+    display: inline-block;
+    font-family: tahoma;
+    transform: rotate(180deg);
+}
+
+figcaption{
+    font-family: tahoma;
+}
+
+figure.credits{
+    display:inline-block;
+    vertical-align: top;
+}
