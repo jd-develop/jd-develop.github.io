@@ -26,6 +26,27 @@ header div#text_header{
     text-align: center;
 }
 
+div, header, footer{
+    border-radius: 8px;
+}
+
+div#paques-calculator{
+    background-color: orange;
+}
+
+div.program-div div{
+    display: inline-block;
+    width: 48%;
+}
+
+div.program-div div.program-text-div h1, div.program-div div.program-text-div p{
+    text-align: right;
+}
+
+div.program-div div.program-img-div img{
+    text-align: left;
+}
+
 li{
     font-family: tahoma;
 }
