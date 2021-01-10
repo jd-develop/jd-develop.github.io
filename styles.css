@@ -77,22 +77,26 @@ nav.menu-nav{
 nav.menu-nav ul li.button{
     list-style-type: none;
     display: inline-block;
+    transition: 0.3s all;
 }
 
 nav.menu-nav ul li.button a{
     color: white;
     text-decoration: none;
     background-color: green;
+    transition: 0.3s all;
 }
 
 nav.menu-nav ul li.button b{
     color: black;
     background-color: lightgreen;
+    transition: 0.3s all;
 }
 
 nav.menu-nav ul li.button a, nav.menu-nav ul li.button b{
     padding: 10px;
     border-radius: 8px;
+    transition: 0.3s all;
 }
 
 nav.menu-nav ul li.button:hover a{
@@ -104,6 +108,27 @@ nav.menu-nav ul li.button:hover a{
 p{
     text-align: center;
     font-family: tahoma;
+}
+
+p.home-button{
+    padding: 8px;
+}
+
+p.home-button a{
+    text-align: center;
+    font-family: tahoma;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    background-color: green;
+    transition: 0.3s all;
+}
+
+p.home-button a:hover{
+    color: black;
+    background-color: lightgreen;
+    transition: 0.3s all;
 }
 
 footer p{
@@ -133,6 +158,7 @@ img{
     border: 1px solid grey;
     border-radius: 8px;
     height: auto;
+    transition: 0.3s all;
 }
 
 header div#img_header img{
