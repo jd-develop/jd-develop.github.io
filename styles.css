@@ -102,6 +102,8 @@ nav.menu-nav ul li.button a, nav.menu-nav ul li.button b{
 nav.menu-nav ul li.button:hover a{
     color: black;
     background-color: lightgreen;
+    padding: 12px;
+    border: 1px solid black;
     transition: 0.3s all;
 }
 
@@ -110,11 +112,11 @@ p{
     font-family: tahoma;
 }
 
-p.home-button{
+p.body-button{
     padding: 8px;
 }
 
-p.home-button a{
+p.body-button a{
     text-align: center;
     font-family: tahoma;
     padding: 10px;
@@ -125,9 +127,75 @@ p.home-button a{
     transition: 0.3s all;
 }
 
-p.home-button a:hover{
+p.body-button a:hover{
     color: black;
     background-color: lightgreen;
+    padding: 12px;
+    border: 1px solid black;
+    transition: 0.3s all;
+}
+
+p.body-button-pc, p.body-button-pp, p.body-button-gp{
+    padding: 4px;
+}
+
+p.body-button-pc a{
+    text-align: center;
+    font-family: tahoma;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    background-color: green;
+    border: 1px solid #87CEEB;
+    transition: 0.3s all;
+}
+
+p.body-button-pc a:hover{
+    color: black;
+    background-color: #87CEEB;
+    border: 1px solid black;
+    padding: 12px;
+    transition: 0.3s all;
+}
+
+p.body-button-pp a{
+    text-align: center;
+    font-family: tahoma;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    background-color: green;
+    border: 1px solid orange;
+    transition: 0.3s all;
+}
+
+p.body-button-pp a:hover{
+    color: black;
+    background-color: orange;
+    border: 1px solid black;
+    padding: 12px;
+    transition: 0.3s all;
+}
+
+p.body-button-gp a{
+    text-align: center;
+    font-family: tahoma;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    background-color: green;
+    border: 1px solid palegreen;
+    transition: 0.3s all;
+}
+
+p.body-button-gp a:hover{
+    color: black;
+    background-color: palegreen;
+    border: 1px solid black;
+    padding: 12px;
     transition: 0.3s all;
 }
 
