@@ -6,10 +6,8 @@ header{
     background-color: green;
 }
 
-header div marquee{
-	scrolldelay: 0;
-	scrollamount: 20;
-	font: tahoma bold 40px;
+header div marquee h1{
+	font-size: 40px;
 }
 
 header div{
