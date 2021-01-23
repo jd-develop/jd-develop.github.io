@@ -274,6 +274,10 @@ figure.credits{
 	
 }
 
+iframe{
+	border-radius: 8px;
+}
+
 .language-text-python{
 	margin: 2px;
 	border: 4px solid purple;
