@@ -6,6 +6,10 @@ header{
     background-color: green;
 }
 
+header div marquee h1{
+	font-size: 40px;
+}
+
 header div{
     display: inline-block;
     text-align: center;
@@ -112,7 +116,7 @@ p{
     font-family: tahoma;
 }
 
-p.body-button, p.body-button-pc, p.body-button-pp, p.body-button-gp{
+p.body-button, p.body-button-pc, p.body-button-pp, p.body-button-gp, p.body-button-f{
     padding: 4px;
 }
 
@@ -195,6 +199,26 @@ p.body-button-gp a:hover{
     transition: 0.3s all;
 }
 
+p.body-button-f a{
+    text-align: center;
+    font-family: tahoma;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    background-color: green;
+    border: 1px solid lightgreen;
+    transition: 0.3s all;
+}
+
+p.body-button-f a:hover{
+    color: black;
+    background-color: lightgreen;
+    border: 1px solid black;
+    padding: 12px;
+    transition: 0.3s all;
+}
+
 footer p{
     display: inline-block;
     font-family: tahoma;
@@ -245,6 +269,95 @@ figcaption{
 }
 
 figure.credits{
-    display:inline-block;
+    display: inline-block;
     vertical-align: top;
+	
+}
+
+iframe{
+	border-radius: 8px;
+}
+
+.language-text-python{
+	margin: 2px;
+	border: 4px solid purple;
+	background-color: purple;
+	color: white;
+	border-radius: 8px;
+}
+
+.language-text-scratch{
+	margin: 2px;
+	border: 4px solid yellow;
+	background-color: yellow;
+	color: black;
+	border-radius: 8px;
+}
+
+.tkinter-info{
+	margin: 2px;
+	border: 4px solid goldenrod;
+	background-color: goldenrod;
+	color: black;
+	border-radius: 8px;
+}
+
+.no-tkinter-info{
+	margin: 2px;
+	border: 4px solid grey;
+	background-color: grey;
+	color: black;
+	border-radius: 8px;
+}
+
+.bounce {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bounce p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    -moz-transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+    -moz-animation: bouncing-text 5s linear infinite alternate;
+    -webkit-animation: bouncing-text 5s linear infinite alternate;
+    animation: bouncing-text 10s linear infinite alternate;
+}
+
+@-moz-keyframes bouncing-text {
+    0% {
+        -moz-transform: translateX(50%);
+    }
+    100% {
+        -moz-transform: translateX(-50%);
+    }
+}
+
+@-webkit-keyframes bouncing-text {
+    0% {
+        -webkit-transform: translateX(50%);
+    }
+    100% {
+        -webkit-transform: translateX(-50%);
+    }
+}
+
+@keyframes bouncing-text {
+    0% {
+        -moz-transform: translateX(50%);
+        -webkit-transform: translateX(50%);
+        transform: translateX(50%);
+	}
+    100% {
+        -moz-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
 }
