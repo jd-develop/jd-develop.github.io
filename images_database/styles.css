@@ -71,7 +71,7 @@ div.program-div div.program-img-div1{
 }
 
 li{
-    font-family: tahoma;
+    font-family: futura;
 }
 
 nav.menu-nav{
@@ -113,7 +113,7 @@ nav.menu-nav ul li.button:hover a{
 
 p{
     text-align: center;
-    font-family: tahoma;
+    font-family: futura;
 }
 
 p.body-button, p.body-button-pc, p.body-button-pp, p.body-button-gp, p.body-button-f{
@@ -122,7 +122,7 @@ p.body-button, p.body-button-pc, p.body-button-pp, p.body-button-gp, p.body-butt
 
 p.body-button a{
     text-align: center;
-    font-family: tahoma;
+    font-family: futura;
     padding: 10px;
     border-radius: 8px;
     color: white;
@@ -141,7 +141,7 @@ p.body-button a:hover{
 
 p.body-button-pc a{
     text-align: center;
-    font-family: tahoma;
+    font-family: futura;
     padding: 10px;
     border-radius: 8px;
     color: white;
@@ -161,7 +161,7 @@ p.body-button-pc a:hover{
 
 p.body-button-pp a{
     text-align: center;
-    font-family: tahoma;
+    font-family: futura;
     padding: 10px;
     border-radius: 8px;
     color: white;
@@ -181,7 +181,7 @@ p.body-button-pp a:hover{
 
 p.body-button-gp a{
     text-align: center;
-    font-family: tahoma;
+    font-family: futura;
     padding: 10px;
     border-radius: 8px;
     color: white;
@@ -201,7 +201,7 @@ p.body-button-gp a:hover{
 
 p.body-button-f a{
     text-align: center;
-    font-family: tahoma;
+    font-family: futura;
     padding: 10px;
     border-radius: 8px;
     color: white;
@@ -221,7 +221,7 @@ p.body-button-f a:hover{
 
 footer p{
     display: inline-block;
-    font-family: tahoma;
+    font-family: futura;
     font-size: 11px
 }
 
@@ -232,13 +232,13 @@ footer{
 
 h1{
     text-align: center;
-    font-family: tahoma;
+    font-family: futura;
     font-size: 40px;
 }
 
 header h1{
     text-align: right;
-    font-family: tahoma;
+    font-family: futura;
     font-size: 20px;
 }
 
@@ -260,12 +260,12 @@ img:hover{
 
 span.copyleft{
     display: inline-block;
-    font-family: tahoma;
+    font-family: futura;
     transform: rotate(180deg);
 }
 
 figcaption{
-    font-family: tahoma;
+    font-family: futura;
 }
 
 figure.credits{
