@@ -89,6 +89,7 @@ nav.menu-nav ul li.button a{
     text-decoration: none;
     background-color: green;
     transition: 0.3s all;
+    border: 1px solid green;
 }
 
 nav.menu-nav ul li.button b{
@@ -106,7 +107,6 @@ nav.menu-nav ul li.button a, nav.menu-nav ul li.button b{
 nav.menu-nav ul li.button:hover a{
     color: black;
     background-color: lightgreen;
-    padding: 12px;
     border: 1px solid black;
     transition: 0.3s all;
 }
@@ -126,6 +126,7 @@ p.body-button a{
     padding: 10px;
     border-radius: 8px;
     color: white;
+    border: 1px solid green;
     text-decoration: none;
     background-color: green;
     transition: 0.3s all;
@@ -134,7 +135,6 @@ p.body-button a{
 p.body-button a:hover{
     color: black;
     background-color: lightgreen;
-    padding: 12px;
     border: 1px solid black;
     transition: 0.3s all;
 }
@@ -271,7 +271,7 @@ figcaption{
 figure.credits{
     display: inline-block;
     vertical-align: top;
-	
+
 }
 
 iframe{
