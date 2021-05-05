@@ -45,10 +45,15 @@
     <a href="images_database/space/Terre 2.jpg" target="_blank"><img src="images_database/space/Terre 2.jpg"></a>
 
     <footer>
-        <p><span class="copyleft">&copy;</span> Jean Dubois, 2021. Aucun droit réservé. No Right Reserved.<br>
+        <p><span class="copyleft">&copy;</span> Jean Dubois, <span id="year"></span>. Aucun droit réservé. No Right Reserved.<br>
         <a href="images_credits.html">Crédits d'images</a> - <a href="cgu.html">CGU</a><br>
         Handcrafted by me.</p>
     </footer>
+	<script>
+		var today = new Date();
+		var year = today.getFullYear();
+		document.getElementById("year").innerHTML = year;
+	</script>
 </body>
 
 </html>
