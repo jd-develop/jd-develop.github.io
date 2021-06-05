@@ -60,6 +60,12 @@ div#scratchos{
     color: white;
 }
 
+div#textm{
+    background-color: #F5DA81;
+    border: 1px solid black;
+    color: black;
+}
+
 div.program-div div{
     display: inline-block;
     width: 48%;
@@ -127,7 +133,7 @@ p{
     font-family: tahoma;
 }
 
-p.body-button, p.body-button-pc, p.body-button-pp, p.body-button-gp, p.body-button-f, p.body-button-scos, p.body-button-tk{
+p.body-button, p.body-button-pc, p.body-button-pp, p.body-button-gp, p.body-button-f, p.body-button-scos, p.body-button-tk, p.body-button-textm{
     padding: 4px;
 }
 
@@ -271,6 +277,25 @@ p.body-button-scos a:hover{
     color: white;
     background-color: blue;
     border: 1px solid white;
+    transition: 0.3s all;
+}
+
+p.body-button-textm a{
+    text-align: center;
+    font-family: tahoma;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    background-color: green;
+    border: 1px solid #F5DA81;
+    transition: 0.3s all;
+}
+
+p.body-button-textm a:hover{
+    color: black;
+    background-color: #F5DA81;
+    border: 1px solid black;
     transition: 0.3s all;
 }
 
