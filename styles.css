@@ -79,11 +79,7 @@ div.program-div div.program-img-div{
     text-align: left;
 }
 
-div.program-div div.program-text-div1 h1, div.program-div div.program-text-div1 p{
-    text-align:left;
-}
-
-div.program-div div.program-img-div1{
+div.program-div{
     text-align:right;
 }
 
