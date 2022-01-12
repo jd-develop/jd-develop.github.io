@@ -9,7 +9,7 @@
         background-color:whitesmoke;
     }
 
-    div#tresor-klah{
+    div#tresor-klah, div#nougaro{
         background-color: whitesmoke;
     }
 
@@ -75,7 +75,7 @@
         transition: 0.3s all;
     }
 
-    p.body-button-tk del{
+    p.body-button-tk del, p.body-button-noug del{
         text-align: center;
         font-family: tahoma;
         padding: 10px;
@@ -84,7 +84,7 @@
         background-color: grey;
     }
 
-    p.body-button-tk a{
+    p.body-button-tk a, p.body-button-noug a{
         text-align: center;
         font-family: tahoma;
         padding: 10px;
@@ -96,7 +96,7 @@
         transition: 0.3s all;
     }
 
-    p.body-button-tk a:hover{
+    p.body-button-tk a:hover, p.body-button-noug a:hover{
         color: black;
         background-color: whitesmoke;
         border: 1px solid black;
