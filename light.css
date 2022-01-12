@@ -1,0 +1,224 @@
+/** This is onlyy LIGHT theme **/
+
+@media (prefers-color-scheme: light){
+    body{
+        background-color: #E8DCCA;
+    }
+
+    header{
+        background-color:whitesmoke;
+    }
+
+    div#tresor-klah{
+        background-color: whitesmoke;
+    }
+
+    div#generateur-de-personnes{
+        background-color: whitesmoke;
+    }
+
+    div#paques-calculator{
+        background-color:whitesmoke;
+    }
+
+    div#textm{
+        background-color: whitesmoke;
+        color: black;
+    }
+
+    div#py-pendu{
+        background-color: whitesmoke;
+    }
+
+    div#scratchos{
+        background-color: whitesmoke;
+        color: black;
+    }
+
+    nav.menu-nav ul li.button a{
+        color: black;
+        text-decoration: none;
+        background-color: whitesmoke;
+        transition: 0.3s all;
+        border: 1px solid #E8DCCA;
+    }
+
+    nav.menu-nav ul li.button b{
+        color: black;
+        background-color: #E8DCCA;
+        transition: 0.3s all;
+    }
+
+    nav.menu-nav ul li.button:hover a{
+        color: black;
+        background-color: #E8DCCA;
+        border: 1px solid black;
+        transition: 0.3s all;
+    }
+
+    p.body-button a{
+        text-align: center;
+        font-family: tahoma;
+        padding: 10px;
+        border-radius: 8px;
+        color: black;
+        border: 1px solid #E8DCCA;
+        text-decoration: none;
+        background-color: whitesmoke;
+        transition: 0.3s all;
+    }
+
+    p.body-button a:hover{
+        color: black;
+        background-color: #E8DCCA;
+        border: 1px solid black;
+        transition: 0.3s all;
+    }
+
+    p.body-button-tk del{
+        text-align: center;
+        font-family: tahoma;
+        padding: 10px;
+        border-radius: 8px;
+        color: black;
+        background-color: grey;
+    }
+
+    p.body-button-tk a{
+        text-align: center;
+        font-family: tahoma;
+        padding: 10px;
+        border-radius: 8px;
+        color: black;
+        text-decoration: none;
+        background-color: #E8DCCA;
+        border: 1px solid #E8DCCA;
+        transition: 0.3s all;
+    }
+
+    p.body-button-tk a:hover{
+        color: black;
+        background-color: whitesmoke;
+        border: 1px solid black;
+        transition: 0.3s all;
+    }
+
+    p.body-button-pc a{
+        text-align: center;
+        font-family: tahoma;
+        padding: 10px;
+        border-radius: 8px;
+        color: black;
+        text-decoration: none;
+        background-color: #E8DCCA;
+        border: 1px solid #E8DCCA;
+        transition: 0.3s all;
+    }
+
+    p.body-button-pc a:hover{
+        color: black;
+        background-color: whitesmoke;
+        border: 1px solid black;
+        transition: 0.3s all;
+    }
+
+    p.body-button-pp a{
+        text-align: center;
+        font-family: tahoma;
+        padding: 10px;
+        border-radius: 8px;
+        color: black;
+        text-decoration: none;
+        background-color: #E8DCCA;
+        border: 1px solid #E8DCCA;
+        transition: 0.3s all;
+    }
+
+    p.body-button-pp a:hover{
+        color: black;
+        background-color: whitesmoke;
+        border: 1px solid black;
+        transition: 0.3s all;
+    }
+
+    p.body-button-gp a{
+        text-align: center;
+        font-family: tahoma;
+        padding: 10px;
+        border-radius: 8px;
+        color: black;
+        text-decoration: none;
+        background-color: #E8DCCA;
+        border: 1px solid #E8DCCA;
+        transition: 0.3s all;
+    }
+
+    p.body-button-gp a:hover{
+        color: black;
+        background-color: whitesmoke;
+        border: 1px solid black;
+        transition: 0.3s all;
+    }
+
+    p.body-button-f a{
+        text-align: center;
+        font-family: tahoma;
+        padding: 10px;
+        border-radius: 8px;
+        color: black;
+        text-decoration: none;
+        background-color: whitesmoke;
+        border: 1px solid whitesmoke;
+        transition: 0.3s all;
+    }
+
+    p.body-button-f a:hover{
+        color: black;
+        background-color: #E8DCCA;
+        border: 1px solid black;
+        transition: 0.3s all;
+    }
+
+    p.body-button-scos a{
+        text-align: center;
+        font-family: tahoma;
+        padding: 10px;
+        border-radius: 8px;
+        color: black;
+        text-decoration: none;
+        background-color: #E8DCCA;
+        border: 1px solid #E8DCCA;
+        transition: 0.3s all;
+    }
+
+    p.body-button-scos a:hover{
+        color: black;
+        background-color: whitesmoke;
+        border: 1px solid black;
+        transition: 0.3s all;
+    }
+
+    p.body-button-textm a{
+        text-align: center;
+        font-family: tahoma;
+        padding: 10px;
+        border-radius: 8px;
+        color: black;
+        text-decoration: none;
+        background-color: #E8DCCA;
+        border: 1px solid #E8DCCA;
+        transition: 0.3s all;
+    }
+
+    p.body-button-textm a:hover{
+        color: black;
+        background-color: whitesmoke;
+        border: 1px solid black;
+        transition: 0.3s all;
+    }
+
+    footer{
+        background-color: whitesmoke;
+        text-align: center;
+    }
+}
