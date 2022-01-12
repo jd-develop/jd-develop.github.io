@@ -2,57 +2,57 @@
 
 @media (prefers-color-scheme: dark){
     body{
-        background-color: #E8DCCA;
+        background-color: #191A19;
     }
 
     header{
-        background-color:whitesmoke;
+        background-color:#A13333;
     }
 
     div#tresor-klah{
-        background-color: whitesmoke;
+        background-color: #A13333;
     }
 
     div#generateur-de-personnes{
-        background-color: whitesmoke;
+        background-color: #A13333;
     }
 
     div#paques-calculator{
-        background-color:whitesmoke;
+        background-color:#A13333;
     }
 
     div#textm{
-        background-color: whitesmoke;
+        background-color: #A13333;
         color: black;
     }
 
     div#py-pendu{
-        background-color: whitesmoke;
+        background-color: #A13333;
     }
 
     div#scratchos{
-        background-color: whitesmoke;
+        background-color: #A13333;
         color: black;
     }
 
     nav.menu-nav ul li.button a{
         color: black;
         text-decoration: none;
-        background-color: whitesmoke;
+        background-color: #A13333;
         transition: 0.3s all;
-        border: 1px solid #E8DCCA;
+        border: 1px solid #191A19;
     }
 
     nav.menu-nav ul li.button b{
-        color: black;
-        background-color: #E8DCCA;
+        color: white;
+        background-color: #191A19;
         transition: 0.3s all;
     }
 
     nav.menu-nav ul li.button:hover a{
-        color: black;
-        background-color: #E8DCCA;
-        border: 1px solid black;
+        color: white;
+        background-color: #191A19;
+        border: 1px solid white;
         transition: 0.3s all;
     }
 
@@ -62,16 +62,16 @@
         padding: 10px;
         border-radius: 8px;
         color: black;
-        border: 1px solid #E8DCCA;
+        border: 1px solid #191A19;
         text-decoration: none;
-        background-color: whitesmoke;
+        background-color: #A13333;
         transition: 0.3s all;
     }
 
     p.body-button a:hover{
-        color: black;
-        background-color: #E8DCCA;
-        border: 1px solid black;
+        color: white;
+        background-color: #191A19;
+        border: 1px solid white;
         transition: 0.3s all;
     }
 
@@ -89,16 +89,16 @@
         font-family: tahoma;
         padding: 10px;
         border-radius: 8px;
-        color: black;
+        color: white;
         text-decoration: none;
-        background-color: #E8DCCA;
-        border: 1px solid #E8DCCA;
+        background-color: #191A19;
+        border: 1px solid #191A19;
         transition: 0.3s all;
     }
 
     p.body-button-tk a:hover{
         color: black;
-        background-color: whitesmoke;
+        background-color: #A13333;
         border: 1px solid black;
         transition: 0.3s all;
     }
@@ -108,16 +108,16 @@
         font-family: tahoma;
         padding: 10px;
         border-radius: 8px;
-        color: black;
+        color: white;
         text-decoration: none;
-        background-color: #E8DCCA;
-        border: 1px solid #E8DCCA;
+        background-color: #191A19;
+        border: 1px solid #191A19;
         transition: 0.3s all;
     }
 
     p.body-button-pc a:hover{
         color: black;
-        background-color: whitesmoke;
+        background-color: #A13333;
         border: 1px solid black;
         transition: 0.3s all;
     }
@@ -127,16 +127,16 @@
         font-family: tahoma;
         padding: 10px;
         border-radius: 8px;
-        color: black;
+        color: white;
         text-decoration: none;
-        background-color: #E8DCCA;
-        border: 1px solid #E8DCCA;
+        background-color: #191A19;
+        border: 1px solid #191A19;
         transition: 0.3s all;
     }
 
     p.body-button-pp a:hover{
         color: black;
-        background-color: whitesmoke;
+        background-color: #A13333;
         border: 1px solid black;
         transition: 0.3s all;
     }
@@ -146,16 +146,16 @@
         font-family: tahoma;
         padding: 10px;
         border-radius: 8px;
-        color: black;
+        color: white;
         text-decoration: none;
-        background-color: #E8DCCA;
-        border: 1px solid #E8DCCA;
+        background-color: #191A19;
+        border: 1px solid #191A19;
         transition: 0.3s all;
     }
 
     p.body-button-gp a:hover{
         color: black;
-        background-color: whitesmoke;
+        background-color: #A13333;
         border: 1px solid black;
         transition: 0.3s all;
     }
@@ -167,15 +167,15 @@
         border-radius: 8px;
         color: black;
         text-decoration: none;
-        background-color: whitesmoke;
-        border: 1px solid whitesmoke;
+        background-color: #A13333;
+        border: 1px solid #A13333;
         transition: 0.3s all;
     }
 
     p.body-button-f a:hover{
-        color: black;
-        background-color: #E8DCCA;
-        border: 1px solid black;
+        color: white;
+        background-color: #191A19;
+        border: 1px solid white;
         transition: 0.3s all;
     }
 
@@ -184,16 +184,16 @@
         font-family: tahoma;
         padding: 10px;
         border-radius: 8px;
-        color: black;
+        color: white;
         text-decoration: none;
-        background-color: #E8DCCA;
-        border: 1px solid #E8DCCA;
+        background-color: #191A19;
+        border: 1px solid #191A19;
         transition: 0.3s all;
     }
 
     p.body-button-scos a:hover{
         color: black;
-        background-color: whitesmoke;
+        background-color: #A13333;
         border: 1px solid black;
         transition: 0.3s all;
     }
@@ -203,22 +203,26 @@
         font-family: tahoma;
         padding: 10px;
         border-radius: 8px;
-        color: black;
+        color: white;
         text-decoration: none;
-        background-color: #E8DCCA;
-        border: 1px solid #E8DCCA;
+        background-color: #191A19;
+        border: 1px solid #191A19;
         transition: 0.3s all;
     }
 
     p.body-button-textm a:hover{
         color: black;
-        background-color: whitesmoke;
+        background-color: #A13333;
         border: 1px solid black;
         transition: 0.3s all;
     }
 
     footer{
-        background-color: whitesmoke;
+        background-color: #A13333;
         text-align: center;
+    }
+
+    .colorinwhiteifdarktheme{
+        color: white
     }
 }
