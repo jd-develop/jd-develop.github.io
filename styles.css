@@ -76,10 +76,11 @@ footer p{
     font-size: 11px
 }
 
-span.copyleft{  /** the copyleft is a copyright with a 180° rotation x) **/
-    display: inline-block;
+span.copyleft { /** the copyleft is a copyright with a 180° rotation x) **/
     font-family: tahoma;
-    transform: rotate(180deg);
+    position: relative;
+    display: inline-block;
+    transform: scale(-1, 1);
 }
 
 /** Border radiuses **/
