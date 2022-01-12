@@ -1,9 +1,9 @@
 body{
-    background-color: #5865F2;
+    background-color: #E8DCCA;
 }
 
 header{
-    background-color:#581FFF;
+    background-color:whitesmoke;
 }
 
 header div marquee h1{
@@ -34,33 +34,29 @@ div, header, footer{
     border-radius: 8px;
 }
 
-footer a, a.nasalink{
-    color: #FEE75C;
-}
-
 div#tresor-klah{
-    background-color: #581FFF;
+    background-color: whitesmoke;
 }
 
 div#generateur-de-personnes{
-    background-color: #581FFF;
+    background-color: whitesmoke;
 }
 
 div#paques-calculator{
-    background-color: #581FFF;
+    background-color:whitesmoke;
 }
 
 div#textm{
-    background-color: #581FFF;
+    background-color: whitesmoke;
     color: black;
 }
 
 div#py-pendu{
-    background-color: #581FFF;
+    background-color: whitesmoke;
 }
 
 div#scratchos{
-    background-color: #581FFF;
+    background-color: whitesmoke;
     color: black;
 }
 
@@ -98,14 +94,14 @@ nav.menu-nav ul li.button{
 nav.menu-nav ul li.button a{
     color: black;
     text-decoration: none;
-    background-color: #581FFF;
+    background-color: whitesmoke;
     transition: 0.3s all;
-    border: 1px solid #581FFF;
+    border: 1px solid #E8DCCA;
 }
 
 nav.menu-nav ul li.button b{
     color: black;
-    background-color: #5865F2;
+    background-color: #E8DCCA;
     transition: 0.3s all;
 }
 
@@ -117,7 +113,7 @@ nav.menu-nav ul li.button a, nav.menu-nav ul li.button b{
 
 nav.menu-nav ul li.button:hover a{
     color: black;
-    background-color: #5865F2;
+    background-color: #E8DCCA;
     border: 1px solid black;
     transition: 0.3s all;
 }
@@ -137,15 +133,15 @@ p.body-button a{
     padding: 10px;
     border-radius: 8px;
     color: black;
-    border: 1px solid #581FFF;
+    border: 1px solid #E8DCCA;
     text-decoration: none;
-    background-color: #581FFF;
+    background-color: whitesmoke;
     transition: 0.3s all;
 }
 
 p.body-button a:hover{
     color: black;
-    background-color: #5865F2;
+    background-color: #E8DCCA;
     border: 1px solid black;
     transition: 0.3s all;
 }
@@ -166,14 +162,14 @@ p.body-button-tk a{
     border-radius: 8px;
     color: black;
     text-decoration: none;
-    background-color: #5865F2;
-    border: 1px solid #5865F2;
+    background-color: #E8DCCA;
+    border: 1px solid #E8DCCA;
     transition: 0.3s all;
 }
 
 p.body-button-tk a:hover{
     color: black;
-    background-color: #581FFF;
+    background-color: whitesmoke;
     border: 1px solid black;
     transition: 0.3s all;
 }
@@ -185,14 +181,14 @@ p.body-button-pc a{
     border-radius: 8px;
     color: black;
     text-decoration: none;
-    background-color: #5865F2;
-    border: 1px solid #5865F2;
+    background-color: #E8DCCA;
+    border: 1px solid #E8DCCA;
     transition: 0.3s all;
 }
 
 p.body-button-pc a:hover{
     color: black;
-    background-color: #581FFF;
+    background-color: whitesmoke;
     border: 1px solid black;
     transition: 0.3s all;
 }
@@ -204,14 +200,14 @@ p.body-button-pp a{
     border-radius: 8px;
     color: black;
     text-decoration: none;
-    background-color: #5865F2;
-    border: 1px solid #5865F2;
+    background-color: #E8DCCA;
+    border: 1px solid #E8DCCA;
     transition: 0.3s all;
 }
 
 p.body-button-pp a:hover{
     color: black;
-    background-color: #581FFF;
+    background-color: whitesmoke;
     border: 1px solid black;
     transition: 0.3s all;
 }
@@ -223,14 +219,14 @@ p.body-button-gp a{
     border-radius: 8px;
     color: black;
     text-decoration: none;
-    background-color: #5865F2;
-    border: 1px solid #5865F2;
+    background-color: #E8DCCA;
+    border: 1px solid #E8DCCA;
     transition: 0.3s all;
 }
 
 p.body-button-gp a:hover{
     color: black;
-    background-color: #581FFF;
+    background-color: whitesmoke;
     border: 1px solid black;
     transition: 0.3s all;
 }
@@ -242,14 +238,14 @@ p.body-button-f a{
     border-radius: 8px;
     color: black;
     text-decoration: none;
-    background-color: #581FFF;
-    border: 1px solid #581FFF;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
     transition: 0.3s all;
 }
 
 p.body-button-f a:hover{
     color: black;
-    background-color: #5865F2;
+    background-color: #E8DCCA;
     border: 1px solid black;
     transition: 0.3s all;
 }
@@ -261,14 +257,14 @@ p.body-button-scos a{
     border-radius: 8px;
     color: black;
     text-decoration: none;
-    background-color: #5865F2;
-    border: 1px solid #5865F2;
+    background-color: #E8DCCA;
+    border: 1px solid #E8DCCA;
     transition: 0.3s all;
 }
 
 p.body-button-scos a:hover{
     color: black;
-    background-color: #581FFF;
+    background-color: whitesmoke;
     border: 1px solid black;
     transition: 0.3s all;
 }
@@ -280,14 +276,14 @@ p.body-button-textm a{
     border-radius: 8px;
     color: black;
     text-decoration: none;
-    background-color: #5865F2;
-    border: 1px solid #5865F2;
+    background-color: #E8DCCA;
+    border: 1px solid #E8DCCA;
     transition: 0.3s all;
 }
 
 p.body-button-textm a:hover{
     color: black;
-    background-color: #581FFF;
+    background-color: whitesmoke;
     border: 1px solid black;
     transition: 0.3s all;
 }
@@ -299,7 +295,7 @@ footer p{
 }
 
 footer{
-    background-color: #581FFF;
+    background-color: whitesmoke;
     text-align: center;
 }
 
