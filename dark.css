@@ -79,7 +79,7 @@
     p.body-button-prog a:hover{
         color: white;
         background-color: #A13333;
-        border: 1px solid black;
+        border: 1px solid white;
         transition: 0.3s all;
     }
 
