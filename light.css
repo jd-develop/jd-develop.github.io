@@ -7,6 +7,7 @@
 
     header{
         background-color:whitesmoke;
+        color: black;
     }
 
     nav.menu-nav ul li.button a{
@@ -50,7 +51,7 @@
     }
 
     /* programs */
-    div#tresor-klah, div#nougaro, div#generateur-de-personnes, div#paques-calculator, div#textm, div#py-pendu, div#scratchos{
+    div.program-div{
         background-color: whitesmoke;
         color: black;
     }
