@@ -9,32 +9,6 @@
         background-color:whitesmoke;
     }
 
-    div#tresor-klah, div#nougaro{
-        background-color: whitesmoke;
-    }
-
-    div#generateur-de-personnes{
-        background-color: whitesmoke;
-    }
-
-    div#paques-calculator{
-        background-color:whitesmoke;
-    }
-
-    div#textm{
-        background-color: whitesmoke;
-        color: black;
-    }
-
-    div#py-pendu{
-        background-color: whitesmoke;
-    }
-
-    div#scratchos{
-        background-color: whitesmoke;
-        color: black;
-    }
-
     nav.menu-nav ul li.button a{
         color: black;
         text-decoration: none;
@@ -75,7 +49,13 @@
         transition: 0.3s all;
     }
 
-    p.body-button-tk del, p.body-button-noug del{
+    /* programs */
+    div#tresor-klah, div#nougaro, div#generateur-de-personnes, div#paques-calculator, div#textm, div#py-pendu, div#scratchos{
+        background-color: whitesmoke;
+        color: black;
+    }
+
+    p.body-button-prog del{
         text-align: center;
         font-family: tahoma;
         padding: 10px;
@@ -84,7 +64,7 @@
         background-color: grey;
     }
 
-    p.body-button-tk a, p.body-button-noug a{
+    p.body-button-prog a{
         text-align: center;
         font-family: tahoma;
         padding: 10px;
@@ -96,121 +76,7 @@
         transition: 0.3s all;
     }
 
-    p.body-button-tk a:hover, p.body-button-noug a:hover{
-        color: black;
-        background-color: whitesmoke;
-        border: 1px solid black;
-        transition: 0.3s all;
-    }
-
-    p.body-button-pc a{
-        text-align: center;
-        font-family: tahoma;
-        padding: 10px;
-        border-radius: 8px;
-        color: black;
-        text-decoration: none;
-        background-color: #E8DCCA;
-        border: 1px solid #E8DCCA;
-        transition: 0.3s all;
-    }
-
-    p.body-button-pc a:hover{
-        color: black;
-        background-color: whitesmoke;
-        border: 1px solid black;
-        transition: 0.3s all;
-    }
-
-    p.body-button-pp a{
-        text-align: center;
-        font-family: tahoma;
-        padding: 10px;
-        border-radius: 8px;
-        color: black;
-        text-decoration: none;
-        background-color: #E8DCCA;
-        border: 1px solid #E8DCCA;
-        transition: 0.3s all;
-    }
-
-    p.body-button-pp a:hover{
-        color: black;
-        background-color: whitesmoke;
-        border: 1px solid black;
-        transition: 0.3s all;
-    }
-
-    p.body-button-gp a{
-        text-align: center;
-        font-family: tahoma;
-        padding: 10px;
-        border-radius: 8px;
-        color: black;
-        text-decoration: none;
-        background-color: #E8DCCA;
-        border: 1px solid #E8DCCA;
-        transition: 0.3s all;
-    }
-
-    p.body-button-gp a:hover{
-        color: black;
-        background-color: whitesmoke;
-        border: 1px solid black;
-        transition: 0.3s all;
-    }
-
-    p.body-button-f a{
-        text-align: center;
-        font-family: tahoma;
-        padding: 10px;
-        border-radius: 8px;
-        color: black;
-        text-decoration: none;
-        background-color: whitesmoke;
-        border: 1px solid whitesmoke;
-        transition: 0.3s all;
-    }
-
-    p.body-button-f a:hover{
-        color: black;
-        background-color: #E8DCCA;
-        border: 1px solid black;
-        transition: 0.3s all;
-    }
-
-    p.body-button-scos a{
-        text-align: center;
-        font-family: tahoma;
-        padding: 10px;
-        border-radius: 8px;
-        color: black;
-        text-decoration: none;
-        background-color: #E8DCCA;
-        border: 1px solid #E8DCCA;
-        transition: 0.3s all;
-    }
-
-    p.body-button-scos a:hover{
-        color: black;
-        background-color: whitesmoke;
-        border: 1px solid black;
-        transition: 0.3s all;
-    }
-
-    p.body-button-textm a{
-        text-align: center;
-        font-family: tahoma;
-        padding: 10px;
-        border-radius: 8px;
-        color: black;
-        text-decoration: none;
-        background-color: #E8DCCA;
-        border: 1px solid #E8DCCA;
-        transition: 0.3s all;
-    }
-
-    p.body-button-textm a:hover{
+    p.body-button-prog a:hover{
         color: black;
         background-color: whitesmoke;
         border: 1px solid black;

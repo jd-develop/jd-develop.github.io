@@ -9,34 +9,8 @@
         background-color:#A13333;
     }
 
-    div#tresor-klah, div#nougaro{
-        background-color: #A13333;
-    }
-
-    div#generateur-de-personnes{
-        background-color: #A13333;
-    }
-
-    div#paques-calculator{
-        background-color:#A13333;
-    }
-
-    div#textm{
-        background-color: #A13333;
-        color: black;
-    }
-
-    div#py-pendu{
-        background-color: #A13333;
-    }
-
-    div#scratchos{
-        background-color: #A13333;
-        color: black;
-    }
-
     nav.menu-nav ul li.button a{
-        color: black;
+        color: white;
         text-decoration: none;
         background-color: #A13333;
         transition: 0.3s all;
@@ -61,7 +35,7 @@
         font-family: tahoma;
         padding: 10px;
         border-radius: 8px;
-        color: black;
+        color: white;
         border: 1px solid #191A19;
         text-decoration: none;
         background-color: #A13333;
@@ -74,8 +48,14 @@
         border: 1px solid white;
         transition: 0.3s all;
     }
+    
+    /* programs */
+    div.program-div{
+        background-color: #A13333;
+        color: white;
+    }
 
-    p.body-button-tk del, p.body-button-noug del{
+    p.body-button-prog del{
         text-align: center;
         font-family: tahoma;
         padding: 10px;
@@ -84,7 +64,7 @@
         background-color: grey;
     }
 
-    p.body-button-tk a, p.body-button-noug a{
+    p.body-button-prog a{
         text-align: center;
         font-family: tahoma;
         padding: 10px;
@@ -96,122 +76,8 @@
         transition: 0.3s all;
     }
 
-    p.body-button-tk a:hover, p.body-button-noug a:hover{
-        color: black;
-        background-color: #A13333;
-        border: 1px solid black;
-        transition: 0.3s all;
-    }
-
-    p.body-button-pc a{
-        text-align: center;
-        font-family: tahoma;
-        padding: 10px;
-        border-radius: 8px;
+    p.body-button-prog a:hover{
         color: white;
-        text-decoration: none;
-        background-color: #191A19;
-        border: 1px solid #191A19;
-        transition: 0.3s all;
-    }
-
-    p.body-button-pc a:hover{
-        color: black;
-        background-color: #A13333;
-        border: 1px solid black;
-        transition: 0.3s all;
-    }
-
-    p.body-button-pp a{
-        text-align: center;
-        font-family: tahoma;
-        padding: 10px;
-        border-radius: 8px;
-        color: white;
-        text-decoration: none;
-        background-color: #191A19;
-        border: 1px solid #191A19;
-        transition: 0.3s all;
-    }
-
-    p.body-button-pp a:hover{
-        color: black;
-        background-color: #A13333;
-        border: 1px solid black;
-        transition: 0.3s all;
-    }
-
-    p.body-button-gp a{
-        text-align: center;
-        font-family: tahoma;
-        padding: 10px;
-        border-radius: 8px;
-        color: white;
-        text-decoration: none;
-        background-color: #191A19;
-        border: 1px solid #191A19;
-        transition: 0.3s all;
-    }
-
-    p.body-button-gp a:hover{
-        color: black;
-        background-color: #A13333;
-        border: 1px solid black;
-        transition: 0.3s all;
-    }
-
-    p.body-button-f a{
-        text-align: center;
-        font-family: tahoma;
-        padding: 10px;
-        border-radius: 8px;
-        color: black;
-        text-decoration: none;
-        background-color: #A13333;
-        border: 1px solid #A13333;
-        transition: 0.3s all;
-    }
-
-    p.body-button-f a:hover{
-        color: white;
-        background-color: #191A19;
-        border: 1px solid white;
-        transition: 0.3s all;
-    }
-
-    p.body-button-scos a{
-        text-align: center;
-        font-family: tahoma;
-        padding: 10px;
-        border-radius: 8px;
-        color: white;
-        text-decoration: none;
-        background-color: #191A19;
-        border: 1px solid #191A19;
-        transition: 0.3s all;
-    }
-
-    p.body-button-scos a:hover{
-        color: black;
-        background-color: #A13333;
-        border: 1px solid black;
-        transition: 0.3s all;
-    }
-
-    p.body-button-textm a{
-        text-align: center;
-        font-family: tahoma;
-        padding: 10px;
-        border-radius: 8px;
-        color: white;
-        text-decoration: none;
-        background-color: #191A19;
-        border: 1px solid #191A19;
-        transition: 0.3s all;
-    }
-
-    p.body-button-textm a:hover{
-        color: black;
         background-color: #A13333;
         border: 1px solid black;
         transition: 0.3s all;
@@ -220,6 +86,7 @@
     footer{
         background-color: #A13333;
         text-align: center;
+        color: white;
     }
 
     .colorinwhiteifdarktheme{
