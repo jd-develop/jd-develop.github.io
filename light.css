@@ -2,31 +2,31 @@
 
 @media (prefers-color-scheme: light){
     body{
-        background-color: #E8DCCA;
+        background-color: #FCFFB2;
     }
 
     header{
-        background-color:whitesmoke;
+        background-color:#70B229;
         color: black;
     }
 
     nav.menu-nav ul li.button a{
         color: black;
         text-decoration: none;
-        background-color: whitesmoke;
+        background-color: #70B229;
         transition: 0.3s all;
-        border: 1px solid #E8DCCA;
+        border: 1px solid #FCFFB2;
     }
 
     nav.menu-nav ul li.button b{
         color: black;
-        background-color: #E8DCCA;
+        background-color: #FCFFB2;
         transition: 0.3s all;
     }
 
     nav.menu-nav ul li.button:hover a{
         color: black;
-        background-color: #E8DCCA;
+        background-color: #FCFFB2;
         border: 1px solid black;
         transition: 0.3s all;
     }
@@ -37,22 +37,22 @@
         padding: 10px;
         border-radius: 8px;
         color: black;
-        border: 1px solid #E8DCCA;
+        border: 1px solid #FCFFB2;
         text-decoration: none;
-        background-color: whitesmoke;
+        background-color: #70B229;
         transition: 0.3s all;
     }
 
     p.body-button a:hover{
         color: black;
-        background-color: #E8DCCA;
+        background-color: #FCFFB2;
         border: 1px solid black;
         transition: 0.3s all;
     }
 
     /* programs */
     div.program-div{
-        background-color: whitesmoke;
+        background-color: #70B229;
         color: black;
     }
 
@@ -72,20 +72,20 @@
         border-radius: 8px;
         color: black;
         text-decoration: none;
-        background-color: #E8DCCA;
-        border: 1px solid #E8DCCA;
+        background-color: #FCFFB2;
+        border: 1px solid #FCFFB2;
         transition: 0.3s all;
     }
 
     p.body-button-prog a:hover{
         color: black;
-        background-color: whitesmoke;
+        background-color: #70B229;
         border: 1px solid black;
         transition: 0.3s all;
     }
 
     footer{
-        background-color: whitesmoke;
+        background-color: #70B229;
         text-align: center;
     }
 }

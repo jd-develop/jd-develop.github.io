@@ -6,14 +6,14 @@
     }
 
     header{
-        background-color:#A13333;
+        background-color:#842a2a;
         color: white;
     }
 
     nav.menu-nav ul li.button a{
         color: white;
         text-decoration: none;
-        background-color: #A13333;
+        background-color: #842a2a;
         transition: 0.3s all;
         border: 1px solid #191A19;
     }
@@ -39,7 +39,7 @@
         color: white;
         border: 1px solid #191A19;
         text-decoration: none;
-        background-color: #A13333;
+        background-color: #842a2a;
         transition: 0.3s all;
     }
 
@@ -52,7 +52,7 @@
     
     /* programs */
     div.program-div{
-        background-color: #A13333;
+        background-color: #842a2a;
         color: white;
     }
 
@@ -79,13 +79,13 @@
 
     p.body-button-prog a:hover{
         color: white;
-        background-color: #A13333;
+        background-color: #842a2a;
         border: 1px solid white;
         transition: 0.3s all;
     }
 
     footer{
-        background-color: #A13333;
+        background-color: #842a2a;
         text-align: center;
         color: white;
     }

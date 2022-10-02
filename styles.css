@@ -1,29 +1,26 @@
 /** CSS made with <3 by Jean Dubois. **/
 /** Texts (h1, p...) **/
+html{
+    font-family: "Tahoma";
+}
+
 p{
     text-align: center;
-    font-family: tahoma;
 }
 
 h1{
     text-align: center;
-    font-family: tahoma;
     font-size: 40px;
 }
 
 h2{
     text-align: center;
-    font-family: tahoma;
     font-size: 30px;
 }
 
 header div h1{
     font-size: 30px;
     text-align: center;
-}
-
-li{
-    font-family: tahoma;
 }
 
 /** HEADER **/
@@ -49,7 +46,6 @@ header div#text_header{
 
 header h1{
     text-align: right;
-    font-family: tahoma;
     font-size: 20px;
 }
 
@@ -73,12 +69,10 @@ nav.menu-nav ul li.button a, nav.menu-nav ul li.button b{
 /** FOOTER **/
 footer p{
     display: inline-block;
-    font-family: tahoma;
     font-size: 11px
 }
 
 span.copyleft { /** the copyleft is a copyright with a 180° rotation x) **/
-    font-family: tahoma;
     position: relative;
     display: inline-block;
     transform: scale(-1, 1);
@@ -158,10 +152,6 @@ header div#img_header img{
 img.withlink:hover{
     box-shadow: 0 0 5px 1px rgba(0, 140, 186, 1);
     transition: 0.3s all;
-}
-
-figcaption{
-    font-family: tahoma;
 }
 
 figure.credits{
