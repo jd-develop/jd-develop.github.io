@@ -17,8 +17,9 @@ h2{
     font-size: 30px;
 }
 
-header div marquee h1{
-    font-size: 40px;
+header div h1{
+    font-size: 30px;
+    text-align: center;
 }
 
 li{
