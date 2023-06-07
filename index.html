@@ -1,64 +1,39 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Site web de Jean Dubois</title>
+	</head>
+	<body>
+		<nav class="navbar">
+			<div class="left"><a href="#">Accueil</a></div>
+			<div class="right">
+				<a href="infos.html">Informations utiles</a>
+				<a href="https://github.com/jd-develop" target="_blank">Mon GitHub</a>
+			</div>
+		</nav>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Site web de Jean Dubois</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="light.css">
-    <link rel="stylesheet" type="text/css" href="dark.css">
-    <link rel="icon" type="image/jpg" href="images_database/favicon.png">
-</head>
+		<header>
+			<h1>Site web de Jean Dubois</h1>
+			<cite>Il fallait tomber dans la potion magique de la programmation étant petit.</cite>
+		</header>
 
-<body>
+		<main>
+			<h2>Mes projets</h2>
+			<div class="projects">
+				<div class="project">
+					<img src="#" />
+					<span class="project__title">Project title</span>
+					<div class="tags"><div class="tag" data-color="blue">Tag</div></div>
+				</div>
+			</div>
+		</main>
 
-    <header>
-        <div id="img_header">
-            <a href="images_database/jeandubois.png" target="_blank"><img class="withlink" src="images_database/jeandubois.png" width="50%"></a>
-        </div>
-        <div id="text_header">
-            <h1>Il fallait tomber dans la potion magique de la programmation étant petit.</h1>
-        </div>
-        <div id="img_header2">
-            <a href="images_database/favicon.png" target="_blank"><img class="withlink" src="images_database/favicon.png" width="42%"></a>
-        </div>
-    </header>
-
-    <nav class="menu-nav">
-        <ul>
-            <li class="button">
-                <b>Accueil</b>
-            </li>
-            <li class="button">
-                <a href="programs.html">Mes programmes</a>
-            </li>
-            <li class="button">
-                <a href="contact.html">Contact et liens utiles</a>
-            </li>
-            <li class="button">
-                <a href="my_favourite_space_photos.html">Photos d'espace</a>
-            </li>
-        </ul>
-    </nav>
-
-    <h1 class="colorinwhiteifdarktheme">Site web de Jean Dubois</h1>
-    <p class="colorinwhiteifdarktheme">Bienvenue sur mon site web !!</p>
-    <p class="colorinwhiteifdarktheme">Voici ce que vous pouvez faire :</p>
-    <p class="body-button"><a href="https://github.com/jd-develop/" target="_blank">Accéder à mon GitHub</a></p>
-    <p class="body-button"><a href="https://github.com/jd-develop/jd-develop.github.io" target="_blank">Voir comment ce site web est construit</a></p>
-    <p class="body-button"><a href="https://blb-studios.github.io" target="_blank">Aller sur le site web de BLB</a></p>
-    <p class="body-button"><a href="contact.html">Contactez-moi</a></p>
-
-    <footer>
-        <p><span class="copyleft">&copy;</span> Jean Dubois, 2020-<span id="year"></span>. Aucun droit réservé. No Right Reserved.<br>
-        <a href="images_credits.html">Crédits d'images</a> - <a href="cgu.html">CGU</a><br>
-        Handcrafted by me.</p>
-    </footer>
-	<script>
-		var today = new Date();
-		var year = today.getFullYear();
-		document.getElementById("year").innerHTML = year;
-	</script>
-</body>
-
+		<footer>
+			Site web sous license GNU GPL3. Créé par un <a href="https://bepo.fr">bépoète</a> qui fait du
+			<a href="https://bepo.fr/wiki/Installation">prosélytisme</a>.
+		</footer>
+	</body>
 </html>
