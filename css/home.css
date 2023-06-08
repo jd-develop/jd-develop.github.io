@@ -1,0 +1,48 @@
+header {
+	text-align: center;
+	padding: 5rem 2rem 5rem;
+}
+h1 {
+	font-size: 3rem;
+}
+cite {
+	font-size: 1.5rem;
+}
+
+main {
+	padding: 5rem 2rem 5rem;
+}
+h2 {
+	font-size: 2rem;
+}
+.projects {
+	margin-top: 2rem;
+}
+.project {
+	display: block;
+	text-decoration: none;
+	color: var(--on-background);
+	display: flex;
+	flex-direction: column;
+	width: 15rem;
+	border: 1px solid var(--on-background);
+}
+.project__details {
+	padding: 1rem;
+}
+.project__title {
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+.tags {
+	margin-top: 0.5rem;
+}
+.tag {
+	display: inline;
+	height: 1.6rem;
+	display: inline-flex;
+	align-items: center;
+	padding: 0 1rem;
+	border-radius: 0.8rem;
+	background-color: var(--tag-bg);
+}

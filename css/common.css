@@ -4,6 +4,7 @@
 	outline: none;
 	border: none;
 	box-sizing: border-box;
+	font-family: "Work Sans", sans-serif;
 }
 
 /* Theme */
@@ -26,7 +27,7 @@
 body {
 	background-color: var(--background);
 	color: var(--on-background);
-	font-family: "Work Sans", sans-serif;
+	min-height: 100vh;
 }
 a {
 	color: var(--primary);
