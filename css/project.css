@@ -1,0 +1,41 @@
+main {
+	background-color: var(--primary);
+	color: var(--on-primary);
+	margin: 2rem;
+	padding: 2rem;
+	border-radius: 2rem;
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+}
+
+img {
+	width: 100%;
+}
+
+.project__details {
+	display: flex;
+	flex-direction: column;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+.project__languages {
+	margin-top: 0.2rem;
+	color: orange;
+	font-size: 1.2rem;
+}
+p {
+	margin-top: 1rem;
+	flex-grow: 0;
+}
+.tags {
+	margin-top: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+	main {
+		grid-template-columns: 1fr;
+	}
+}
