@@ -18,7 +18,6 @@ class Footer extends HTMLDivElement {
 		const style = document.createElement("style");
 		style.textContent = `
 		.footer {
-			margin-top: auto;
 			background-color: var(--primary);
 			color: var(--on-primary);
 			width: 100%;
