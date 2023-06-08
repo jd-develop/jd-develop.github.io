@@ -30,6 +30,18 @@ p {
 	margin-top: 1rem;
 	flex-grow: 0;
 }
+.links {
+	margin-top: 1rem;
+}
+.links a {
+	color: var(--on-primary);
+	display: flex;
+	align-items: center;
+}
+.links svg {
+	height: 1.2rem;
+	margin-right: 0.2rem;
+}
 .tags {
 	margin-top: 1rem;
 }
