@@ -11,7 +11,7 @@ projects.forEach((project_data, index) => {
 
 	projects_container.innerHTML += `
 	<a href="project.html?id=${index}" class="project">
-		<img src="images/projects/${project_data.cover_url}" />
+		<img src="images/projects/${project_data.cover_url}" alt="${project_data.name} logo"/>
 		<div class="project__details">
 		<div class="project__heading"><span class="project__title">${project_data.name}</span><span class="project__language">${project_data.languages[0]}</span></div>
 			${tags_html}

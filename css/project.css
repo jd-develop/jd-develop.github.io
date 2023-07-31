@@ -30,6 +30,9 @@ p {
 	margin-top: 1rem;
 	flex-grow: 0;
 }
+.project__description a {
+	color: var(--on-primary);
+}
 .links {
 	margin-top: 1rem;
 }
