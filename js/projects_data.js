@@ -72,7 +72,7 @@ const projects = [
 	{
 		name: "TextMxier",
 		description: "Un programme qui mixe des textes.",
-		long_description: "Inspiré du fait qu’un texte est toujours lisible et compréhensible même si on mélange les lettres de ses mots exeptés la première et la dernière.</p><p class=\"text__description\"><b>Exemple</b>&nbsp;: «&nbsp;Atilrce 1er&nbsp;: Les hemmos nassniet et dumreneet lriebs et éuagx en ditors. Les dsciinittons sacileos ne puenvet être fenoéds que sur l'uiitlté cmmunoe.&nbsp»",
+		long_description: "Inspiré du fait qu’un texte est toujours lisible et compréhensible même si on mélange les lettres de ses mots exceptés la première et la dernière.</p><p class=\"text__description\"><b>Exemple</b>&nbsp;: «&nbsp;Atilrce 1er&nbsp;: Les hemmos nassniet et dumreneet lriebs et éuagx en ditors. Les dsciinittons sacileos ne puenvet être fenoéds que sur l'uiitlté cmmunoe.&nbsp»",
 		languages: ["Python"],
 		tags: ["Tkinter"],
 		github_url: "https://github.com/jd-develop/textMxier",
