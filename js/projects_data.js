@@ -9,8 +9,8 @@ const tags_color = {
 const projects = [
 	{
 		name: "Nougaro",
-		description: "Un langage de programmation interprété et haut-niveau.",
-		long_description: "Il n’est pas orienté objet.",
+		description: "Un langage de programmation haut-niveau, interprété et multiparadigmes.",
+		long_description: "Orienté-objet et programmation impérative.",
 		languages: ["Python"],
 		tags: [],
 		github_url: "https://github.com/jd-develop/nougaro",

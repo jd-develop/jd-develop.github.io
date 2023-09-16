@@ -1,8 +1,0 @@
-[
-	{
-		"name": "Nougaro",
-		"description": "Un langage de programmation",
-		"languages": ["Python"],
-		"github_url": "https://github.com/jd-develop/nougaro"
-	}
-]
