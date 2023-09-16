@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Counting</title>
+    </head>
+    <body>
+        <h1>Counting</h1>
+        <p>This web page counts from 0 to infinity, 1 number per second, since 2023/09/16, 15:00:00 UTC</p>
+        <p id="count"></p>
+        <script>
+            var count = document.getElementById("count");
+            count.textContent=String(Math.floor(Date.now()/1000)-1694876400);
+            var inst = setInterval(change, 500)
+
+            function change() {
+                count.textContent=String(Math.floor(Date.now()/1000)-1694876400);
+            }
+        </script>
+    </body>
+</html>
