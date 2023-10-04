@@ -14,7 +14,7 @@ const projects = [
 		languages: ["Python"],
 		tags: [],
 		github_url: "https://github.com/jd-develop/nougaro",
-		cover_url: "images/projects/noug_logo.png",
+		cover_url: "noug_logo.png",
 		image_credits: "",
 		additional_links: [
 			{
