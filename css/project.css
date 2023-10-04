@@ -9,7 +9,9 @@ main {
 }
 
 img {
-	width: 100%;
+	max-width: 90%;
+    height: auto;
+    width: auto\9;
 }
 
 .project__details {
