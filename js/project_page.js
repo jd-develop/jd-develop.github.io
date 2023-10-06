@@ -4,9 +4,12 @@ const project_id = params.get("id");
 const project = projects[project_id];
 document.title = project.name + " | Jean Dubois";
 
+console.log(project.cover_url, Boolean(project.cover_url))
+const project_cover = project.cover_url ? `<img src="images/projects/${project.cover_url}" alt="${project.name} logo"/>` : '<div class="image-placeholder"></div>'
+
 const project_wrapper = document.querySelector("main");
 project_wrapper.innerHTML = `
-<img src="images/projects/${project.cover_url}" alt="${project.name} logo"/>
+${project_cover}
 <div class="project__details">
     <h2>${project.name}</h2>
     <div class="project__languages">${project.languages.join(" · ")}</div>
