@@ -15,7 +15,7 @@ const projects = [
 		tags: [],
 		github_url: "https://github.com/jd-develop/nougaro",
 		cover_url: "noug_logo.png",
-		image_credits: "",
+		image_credits: "<a href='https://github.com/3fxcf9'>3fxcf9</a>",
 		additional_links: [
 			{
 				label: "Voir le «&nbsp;Hello, World!&nbsp;»",
