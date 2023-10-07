@@ -10,7 +10,7 @@ const projects = [
 	{
 		name: "Nougaro",
 		description: "Un langage de programmation haut-niveau, interprété et multiparadigmes.",
-		long_description: "Orienté-objet et programmation impérative.",
+		long_description: "Orienté-objet, impératif et structuré.",
 		languages: ["Python"],
 		tags: [],
 		github_url: "https://github.com/jd-develop/nougaro",
@@ -45,7 +45,7 @@ const projects = [
 	{
 		name: "Le trésor de Klah",
 		description: "Un RPG où l’on doit trouver un trésor.",
-		long_description: "Pas du tout fini.",
+		long_description: "Pas du tout fini, ne le sera sûrement jamais.",
 		languages: ["Python"],
 		tags: ["PyGame", "PyScroll", "PyTMX", "Paused"],
 		github_url: "https://github.com/jd-develop/le-tresor-de-klah",
